@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MonaMail - Registro</title>
+</head>
+<body>
+    <main class="b-main">
+        <div>
+            <img src="img/monamail-logo.jpg" class="e-logo">
+        </div>
+        <div class="b-form">   
+            
+            <form>
+                <fieldset class="e-fieldset">
+                <legend><h1 class="e-h1">Welcome to MonaMail</h1></legend>
+                <p>Find your people. Engage your customers. Build your brand. Do it all with MonaMail Email Marketing Platform. Already have an account? <a href="">Log in</a></p>
+                <label class="b-label"><span>Email</span><input type="email" required></label>
+                <label class="b-label"><span>Username</span><input type="text" required></label>
+                <label class="b-label"><span>Password</span><input type="password" pattern="^(?=.[a-z])(?=.[A-Z])(?=.\d)(?=.[@$!%?&])[A-Za-z\d@$!%?&]{8,}$" required></label>
+                <div class="b-required">
+                    <div>
+                        <ul>
+                            <li><span>One lowercase character</span></li>
+                            <li><span>One uppercase character</span></li>
+                            <li><span>One number character</span></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><span>One special character</span></li>
+                            <li><span>8 characters minimum</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="b-label-2">
+                    <button class="e-boton-sign-in">Sign Up</button>
+                    <label><input type="checkbox" required><span>I don't want to receive emails about new MonaMail products, best practices, or special offers.</span></label>
+                </fieldset>
+            </form>
+            <p>By clicking the "Sign Up" button, you are creating a MonaMail account, and you agree to MonaMail's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</p>
+        </div>
+
+    </main>
+</body>
+</html>
