@@ -1,0 +1,92 @@
+.b-cta1{
+    background-color: var(--color-ultra-dark);
+}
+.b-cta2{
+    background-image: url("https://www.instant-gaming.com/themes/igv2/modules/streamerBanner/images/background.png");
+    height: 400px;
+    width: 100%;
+    position: relative;
+    &__img{
+        position: absolute;
+        bottom: 0;
+    }
+}
+.b-cta3{
+    background-image: url("https://s2.gaming-cdn.com/img/products/7072/hcover/7072.jpg?v=1672160400");
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    &::after{
+        content: "";
+        clip-path: polygon(0 100%,100% 100%,0 0);
+        background: var(--color-dark);
+        height: 60px;
+        min-width: 1700px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+    }
+    &__content{
+        max-width: 1200px;
+        width: 100%;
+    }
+    &__dto{
+        position: relative;
+        height: 14px;
+        font-weight: 700;
+        border-radius: 8px 8px 0;
+        padding: 6px 6px 5px 7px;
+        color: var(--color-white);
+        background-color: var(--color);
+        z-index: 2;
+        width: 30px;
+        &::after{
+            content: "";
+            transform: skewX(16deg);
+            width: 100%;
+            border-radius: 10px 5px;
+            position: absolute;
+            left: 2px;
+            bottom: 0;
+            right: -4px;
+            height: 25px;
+            background-color: var(--color);
+            z-index: -1;
+        }
+    }
+}
+.b-cta4{
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(80deg,rgba(50,50,50,.4),#323232 35%),url("https://www.instant-gaming.com/themes/igv2/modules/productsIndiesPanel/images/deadcells.jpg");
+    width: 100%;
+    position: relative;
+    &__img{
+        height: 660px;
+        bottom: 0;
+        position: absolute;
+    }
+}
+.b-cta5{
+    background-image: url("https://www.instant-gaming.com/themes/igv2/modules/extensionPanel/images/extension2.png");
+    background-position: center;
+    height: 550px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    &::after{
+        content: "";
+        clip-path: polygon(0 100%,100% 100%,0 0);
+        background: var(--color-dark);
+        height: 60px;
+        min-width: 1700px;
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+    }
+}

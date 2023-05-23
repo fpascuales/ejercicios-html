@@ -1,0 +1,49 @@
+.b-fdb{
+    margin: 15px;
+    width: calc(100% - 30px);
+    border-radius: 15px;
+    background: var(--color-medium-dark);
+    padding: 20px;
+    &:hover{
+        .b-fdb__img{
+            opacity: 0;
+        }
+        .b-fdb__video{
+            opacity: 1;
+        }
+    }
+    &__rvw{
+        cursor: pointer;
+        position: relative;
+        padding: 0;
+    }
+    &__avatar{
+        margin-right: 15px;
+        height: 50px;
+        width: 50px;
+        flex: 0 0 50px;
+        border-radius: 30%;
+        transition: .2s;
+        &:hover{
+            box-shadow: 0 0 0 2px var(--color);
+        }
+    }
+    &__star{
+        background-image: url("https://www.instant-gaming.com/themes/igv2/modules/feedback/images/stars-rating.svg");
+        background-size: cover;
+        height: 12px;
+        position: relative;
+    }
+    &__img{
+        border-radius: 15px 15px 0 0;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+    }
+    &__video{
+        position: absolute;
+        border-radius: 15px 15px 0 0;
+        width: 100%;
+        opacity: 0;
+        transition: opacity .25s ease-in-out;      
+    }
+}

@@ -1,0 +1,169 @@
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*ESTILOS GENÉRICOS*/
+.d-flex{
+    display: flex !important;
+}
+.flex-wrap{
+    flex-wrap: wrap !important;
+}
+.flex-direction{
+    flex-direction:column;
+}
+.justify-content-center{
+    justify-content: center !important;
+}
+.justify-content-sb{
+    justify-content: space-between !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+.align-items-end{
+    align-items: flex-end !important;
+}
+.height-header{
+    height: 99px !important;
+}
+.no-margin{
+    margin: 0px;
+}
+.margin-lateral-20{
+    margin: 0 20%;
+}
+.margin-top-150{
+    margin-top: 150px;
+}
+.margin-top-80{
+    margin-top: 80px;
+}
+.margin-top-20{
+    margin-top: 20px;
+}
+.margin-left-10{
+    margin-left: 10px;
+}
+.padding-10{
+    padding: 10px;
+}
+.padding-20{
+    padding: 20px;
+}
+.padding-top-80{
+    padding-top: 80px;
+}
+.color-white{
+    color: #fff;
+}
+.color-grey{
+    color: #8d8d8d;
+}
+.ul-no-dot{
+    list-style: none;
+}
+.border{
+    border: solid 1px #e0e0e0;
+}
+.bg-color-grey{
+    background-color: #e0e0e0;
+}
+.border-bgrey{
+    border-bottom: solid 1px #8d8d8d;
+}
+/* BLOQUES */
+.b-header{
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    top: 0px;
+}
+.b-header-menu{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.603);
+    width: 60%;
+}
+.b-header-login{
+    width: 10%;
+}
+.b-header-logo{
+    margin-left: 20px;
+}
+.b-section01{
+    background-image: url("img/bmw-te-gusta-conducir.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 700px;
+    padding-left: 5%;
+    text-transform: uppercase;
+}
+.b-section02{
+    margin-top: 80px;
+    border-bottom: solid 1px #e0e0e0;
+}
+.b-box-car{
+    width: calc(25% - 20px);
+    margin: 9px;
+}
+.b-box-service{
+    width: calc(25% - 30px);
+    margin: 4px;
+}
+.b-box-info{
+    width: calc(50% - 30px);
+    margin: 4px;
+}
+
+/*ELEMENTOS*/
+.e-nav-header{
+    padding:40px 15px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+}
+.e-nav-header:hover{
+    border-bottom: solid 3px #0653b6;
+}
+.e-h1-sec01{
+    font-size: 36px;
+}
+.e-h2-sec01{
+    font-size: 19px;
+}
+.e-font-25{
+    font-size: 25px;
+}
+.e-boton-sec01{
+    margin:15px 0;
+    background-color: #0653b6;
+    padding: 10px 75px 10px 75px;
+    border: none;
+}
+.e-sec2-menu{
+    padding: 20px 15px;
+    text-decoration: none;
+    border-bottom: solid 3px transparent;
+}
+.e-sec2-menu--selected{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 18px 13px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: solid 3px #0653b6;
+}
+.e-sec2-menu:hover{
+    border-bottom: solid 3px #0653b6;
+}
+.e-img-car{
+    object-fit: cover;
+}
+.e-conf-car{
+    margin-top:8px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.e-nav-footer{
+    padding:40px 15px;
+    text-decoration: none;
+    color: #0653b6;
+}

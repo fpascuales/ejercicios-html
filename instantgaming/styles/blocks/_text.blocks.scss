@@ -1,0 +1,65 @@
+.b-text{
+    font-size: 15px;
+    color: var(--color-white);
+    &--enl:hover{
+        cursor: pointer;
+        color: var(--color);
+    }
+    &--blue{
+        font-size: 13px;
+        color: var(--color-blue);
+    }
+    &--borderb{
+        border: 1px solid var(--color-blue);
+        padding: 2px 4px 1px;
+    }
+    &--s{
+        font-size: 13px;
+        color: var(--color-white);
+    }
+    &--l{
+        font-size: 20px;
+        color: var(--color-white);
+    }
+    &--1l{
+        font-size: 24px;
+        color: var(--color-white);
+    }
+    &--2l{
+        font-size: 27px;
+        color: var(--color-white);
+    }
+    &--xl{
+        font-size: 30px;
+        color: var(--color-white);
+    }
+    &--xxlo{
+        font-size: 40px;
+        color: var(--color);
+    }
+    &--xxlw{
+        font-size: 40px;
+        color: var(--color-white);
+    }
+    &--date{
+        background-color: hsla(0,0%,100%,.1);
+        border-radius: 5px;
+    }
+    &--like{
+        font-size: 25px;
+        border-radius: 100px;
+        background-color: var(--color-bg-like);
+        color: var(--color-like);
+    }
+    &--dislk{
+        font-size: 25px;
+        border-radius: 100px;
+        background-color: var(--color-bg-dislike);
+        color: var(--color-dislike);
+    }
+    /*modificador para el logo*/
+    &--logo{
+        color: var(--color);
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,25 @@
+.b-btn{
+    cursor: pointer;
+    background-color: var(--color-medium);
+    border-radius: 35px;
+    padding: 14px;
+    color: var(--color-white);
+    border: 0;
+    font-weight: 700;
+    transition: bacground-color .25s ease-in-out;
+    &:hover{
+        background-color: var(--color);
+    }
+    &--cta{
+        cursor: pointer;
+        background-color: var(--color);
+        border-radius: 8px;
+        padding: 14px 30px;
+        font-weight: 600;
+        border: 0;
+        transition: bacground-color .25s ease-in-out;
+        &:hover{
+            background-color: var(--color-link-hover);
+        }
+    }
+}

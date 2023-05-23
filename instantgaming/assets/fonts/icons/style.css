@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?g6sonn');
+  src:  url('fonts/icomoon.eot?g6sonn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?g6sonn') format('truetype'),
+    url('fonts/icomoon.woff?g6sonn') format('woff'),
+    url('fonts/icomoon.svg?g6sonn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow:before {
+  content: "\e900";
+}
+.icon-cart:before {
+  content: "\e901";
+}
+.icon-customer-support:before {
+  content: "\e902";
+}
+.icon-dislike:before {
+  content: "\e903";
+}
+.icon-download:before {
+  content: "\e90b";
+}
+.icon-fb:before {
+  content: "\e904";
+}
+.icon-gift:before {
+  content: "\e905";
+}
+.icon-igr:before {
+  content: "\e906";
+}
+.icon-like:before {
+  content: "\e907";
+}
+.icon-location:before {
+  content: "\e908";
+}
+.icon-pc:before {
+  content: "\e909";
+}
+.icon-play:before {
+  content: "\e90a";
+}
+.icon-secure:before {
+  content: "\e90d";
+}
+.icon-send:before {
+  content: "\e90e";
+}
+.icon-swt:before {
+  content: "\e90f";
+}
+.icon-tch:before {
+  content: "\e910";
+}
+.icon-tw:before {
+  content: "\e911";
+}
+.icon-user:before {
+  content: "\e912";
+}
+.icon-xbx:before {
+  content: "\e913";
+}
+.icon-yt:before {
+  content: "\e914";
+}
+.icon-logo-ig:before {
+  content: "\e915";
+}
+.icon-stars-5-1 .path1:before {
+  content: "\e916";
+  color: rgb(0, 182, 122);
+}
+.icon-stars-5-1 .path2:before {
+  content: "\e917";
+  margin-left: -5.330078125em;
+  color: rgb(255, 255, 255);
+}
+.icon-stars-rating:before {
+  content: "\e918";
+}
+.icon-trustpilot-1:before {
+  content: "\e919";
+  color: #00b67a;
+}
+.icon-search:before {
+  content: "\e986";
+}
